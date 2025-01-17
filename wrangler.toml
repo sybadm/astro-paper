@@ -1,0 +1,12 @@
+name = "astro-paper"
+compatibility_date = "2025-01-16" # Use today's date
+
+[build]
+command = "npm run build"
+directory = "./dist"
+
+[site]
+bucket = "./dist"
+
+# Add this line
+pages_build_output_dir = "./dist"
